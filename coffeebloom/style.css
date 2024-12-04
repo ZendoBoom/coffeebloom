@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero-image {
+    background-image: url("images/coffeebloom1.1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.top-text {
+    font-family: "fonts/acline.ttf";
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    z-index: 10;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-family: "sans-serif";
+    font-size: 26px;
+}
